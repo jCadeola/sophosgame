@@ -1,0 +1,5 @@
+@import url(../tailwind-default.config.js);
+@import url(../tailwind.config.js);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
