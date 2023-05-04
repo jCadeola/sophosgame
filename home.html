@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generateur de code QR</title>
+    <link href="./dist/output.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section>
+        <header class="shadow-2xl sm:mb-16">
+            <div class="h-1/2 flex justify-center">
+                <div class="w-full sm:mx-32 py-8">
+                    <nav class="flex flex-col sm:flex-row sm:justify-between">
+                        <div class="flex justify-between px-4 py-3 sm:p-0">
+                            <span>QR CODE</span>
+                            <button type="button"
+                                class="sm:hidden text-gray-500 hover:text-gray-300 focus:outline-none">
+                                Menu
+                            </button>
+                        </div>
+                        <div class="sm:flex sm:w-auto hidden w-1/2 z-10" id="menu">
+                            <a href="#" class="block px-4 py-2 text-gray-500 hover:text-gray-300 sm:mt-0">ACCUEIL</a>
+                            <a href="#" class="block px-4 py-2 text-gray-500 hover:text-gray-300 sm:mt-0">SERVICES</a>
+                            <a href="#" class="block px-4 py-2 text-gray-500 hover:text-gray-300 sm:mt-0">WHY WE BEST
+                            </a>
+                            <a href="#"
+                                class="block px-4 py-2 text-gray-500 hover:text-gray-300 sm:mt-0">TESTIMONIALS</a>
+                            <a href="#" class="block px-4 py-2 text-gray-500 hover:text-gray-300 sm:mt-0">CONTACT</a>
+                        </div>
+                    </nav>
+
+                </div>
+
+            </div>
+        </header>
+    </section>
+
+
+    <section class="sm:mx-32">
+        <div class="flex flex-col-reverse justify-center items-center sm:flex-row">
+            <div class=" w-1/3 mb-6 text-black ">
+                <div class="mx-2 sm:mx-0 ">
+                    <p class="pb-2 text-blue-800 font-bold ">VOTRE GENERATEUR DE CODE SIMPLE A UTILISER</p>
+                    <p class="text-gray-600 pb-2 text-center sm:text-left">Lorem ipsum dolor sit amet facere maxime rem
+                        libero in
+                    </p>
+
+                    <p class="pb-4 text-center sm:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid harum magni
+                        provident, in atque voluptatem eligendi accusamus voluptates qui ipsam accusantium eveniet,
+                        vitae dolore dolor ullam, voluptate tenetur ducimus consequatur? Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Voluptates nobis possimus praesentium iusto! </p>
+                    <button class="text-blue-800 font-bold py-2 px-4 rounded bg-yellow-500 m-auto mt-16 "><a
+                            href="generateqr2.html">CREER VOTRE CODE QR</a></button>
+
+                </div>
+            </div>
+            <div class=" sm:w-2/3 ">
+                <img src="img/11136.jpg" alt="" class="block mx-auto h-1/2 sm:h-full">
+            </div>
+        </div>
+    </section>
+    <section class="px-4 py-8 sm:py-16">
+        <div class="text-center text-2xl my-4 text-blue-800 font-bold">
+            COMMENT S'Y PRENDRE? </div>
+        <div class="text-center flex justify-center mx-auto my-4">
+            Rapid solutions to the most complete business challenges with cooperative process-driven
+        </div>
+
+
+        <div class="max-w-screen-lg mx-auto">
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+                <div class="w-full shadow-lg">
+                    <img src="img/téléchargement.png" alt="Image" class="h-30 w-20 mb-6 flex justify-center">
+                    <div class="w-full pl-6">
+                        <p class="font-bold text-blue-800"> ENTREZ L'URL DU SITE</p>
+                        <p class="mb-4">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente similique cupiditate
+                            praesentium, facilis nesciunt adipisci nemo, eum ullam, provident placeat ad est sed aliquam
+                            esse deleniti! Vero repellat voluptates dignissimos.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full shadow-lg">
+                    <img src="img/customized-qr-banner.png" alt="Image" class="h-30 w-20 mb-6 flex justify-center">
+                    <div class="w-full pl-6">
+                        <p class="font-bold text-blue-800">PERSONNALISER LE CODE QR</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente similique cupiditate
+                            praesentium, facilis nesciunt adipisci nemo, eum ullam, provident placeat ad est sed aliquam
+                            esse deleniti! Vero repellat voluptates dignissimos.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full shadow-lg">
+                    <img src="img/téléchargement (1).png" alt="Image" class="h-30 w-20 mb-6 flex justify-center">
+                    <div class="w-full pl-6">
+                        <p class="font-bold text-blue-800">TELECHARGER VOTRE CODE QR</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente similique cupiditate
+                            praesentium, facilis nesciunt adipisci nemo, eum ullam, provident placeat ad est sed aliquam
+                            esse deleniti! Vero repellat voluptates dignissimos.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="flex justify-center">
+            <button class="text-blue-800 font-bold py-2 px-4 rounded bg-yellow-500 m-auto mt-16 "><a
+                    href="generateqr2.html">CREER VOTRE CODE QR</a></button>
+
+        </div>
+
+    </section>
+
+    <script>
+        const menuButton = document.querySelector('button');
+        const menu = document.querySelector('#menu');
+
+        menuButton.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+    </script>
+</body>
+
+</html>
