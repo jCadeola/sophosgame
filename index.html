@@ -17,10 +17,10 @@
                     class=" px-4 py-1 rounded-md bg-blue-200 bg-transparent  items-center flex justify-between text-gray-800 ">
                     <a href="#" class="cursor-pointer">
                         <img class="w-20 lg:w-20" src="./src/img/logo.png" alt=""></a>
-                    <div>
-                        <h2 class="font-bold hover:border-b click-tog lg:hidden  ">MENU</h2>
-                    </div>
-                    <ul class=" hidden lg:flex space-x-5 uppercase  font-semibold items-center">
+                    <button typei="button">
+                        <h2  class="font-bold hover:border-b click-tog lg:hidden  ">MENU</h2>
+                    </button>
+                   <ul id="menu" class=" hidden lg:flex space-x-5 uppercase  font-semibold items-center">
                         <li class="hover:text-blue-800"><a href="#">HOME</a></li>
                         <li class="hover:text-blue-800"><a href="#About">ABOUT</a></li>
                         <li class="hover:text-blue-800"><a href="jeu.html">JEUX</a></li>
@@ -291,5 +291,13 @@
         </div>
     </div>
 </footer>
+<script>
+    const menuButton = document.querySelector('button');
+    const menu = document.querySelector('#menu');
 
+    menuButton.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    });
+
+</script>
 </html>
