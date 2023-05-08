@@ -14,24 +14,26 @@
         <div classlg="w-full">
             <div class="px-8 lg:px-36 pt-5">
                 <nav
-                    class=" px-4 py-1 rounded-md bg-blue-200 bg-transparent  items-center flex justify-between text-gray-800 ">
+                    class=" px-4 py-1  rounded-md after:py-60 bg-blue-200 bg-transparent  items-center flex justify-between text-gray-800 ">
                     <a href="#" class="cursor-pointer">
                         <img class="w-20 lg:w-20" src="./src/img/logo.png" alt=""></a>
-                    <button typei="button">
-                        <h2  class="font-bold hover:border-b click-tog lg:hidden  ">MENU</h2>
-                    </button>
-                   <ul id="menu" class=" hidden lg:flex space-x-5 uppercase  font-semibold items-center">
+                   <div>
+                    <ul id="menu"
+                        class=" hidden relative rounded  bg-blue-500 top-20 lg:flex space-x-5 uppercase  font-semibold items-center">
                         <li class="hover:text-blue-800"><a href="#">HOME</a></li>
                         <li class="hover:text-blue-800"><a href="#About">ABOUT</a></li>
                         <li class="hover:text-blue-800"><a href="jeu.html">JEUX</a></li>
                         <li class="hover:text-blue-800"><a href="#Blog">BLOG</a></li>
                         <li class="hover:text-blue-800"><a href="#Contact">CONTACT</a></li>
                     </ul>
-
+                   </div>
+                    <button type="button">
+                        <h2  class="font-bold hover:border-b  lg:hidden  ">MENU</h2>
+                    </button>
                 </nav>
                 <div class="px-20 lg:flex items-center pt-2 justify-center lg:justify-between  lg:py-10 ">
                     <div class="">
-                        <div class="text-white items-center text-center py-20 lg:text-left lg:mt-40 lg:pl-10 lg:max-w-lg ">
+                        <div class="text-white items-center text-center pt-32 pb- lg:text-left lg:mt-40 lg:pl-10 lg:max-w-lg ">
                             <h1 class=" font-medium text-4xl lg:text-6xl ">Enjoy Our <br> Delicious Meal
                             </h1>
                             <p class="pt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium fugit
@@ -46,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex justify-center ">
+                    <div class="flex justify-center relative bottom-20">
                         <img src="./src/img/mots-croises.png" class=" lg:block w-80" alt="">
                     </div>
                 </div>
@@ -55,10 +57,10 @@
     </div>
 
     <!-- ABOUT -->
-    <div id="About" class="mt-60 mb-20 px-20 bg-gray-800">
+    <div id="About" class="pt-96 mb-20 px-20 bg-gray-800">
         <div class="lg:px-52  text-gray-800">
             <div class="rounded-lg h-96 bg-blue-200">
-                <div class="px-4 pt-20 h-72">
+                <div class="px-4 lg:pt-20 h-72">
                     <h1 class="pb-3 text-xl font-bold">TAKE AWAY THE RISK & YOU <br> CAN DO ANYTHING</h1>
                     <p class="pb-3 text-lg">Rapid solutions to the most complex business
                         challenges with cooperative process-driven.
@@ -195,7 +197,7 @@
 </body>
 <footer class="bg-gray-800 max-w-full text-blue-200">
     <div class="border-t-2 border-r-2 border-l-2 mb-3 rounded-lg border-blue-200 mx-20">
-        <div class="lg:flex justify-around pt-20 px-20 ">
+        <div class="lg:flex justify-around pt-20 px-10 lg:px-20 ">
             <div class="">
                 <div class="flex items-center">
                     <h1 class="text-lg text-blue-200 font-bold pr-3 py-8">Sophosgame</h1>
@@ -269,7 +271,7 @@
                 </div>
             </div>
         </div>
-        <div class="pt-20 mx-20">
+        <div class="pt-20 mx-10 lg:mx-20">
             <div class="pt-14">
                 <div class="h-0.5 bg-blue-200"></div>
             </div>
